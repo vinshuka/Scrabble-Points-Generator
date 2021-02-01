@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="515.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ScrabbleController">
+   <children>
+      <Label layoutX="171.0" layoutY="26.0" text="Scrabble Point Generator Help">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="53.0" text="How to Use:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="86.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type your word using your keyboard or the on screen buttons., then click submit." wrappingWidth="429.0000057220459" />
+      <Text layoutX="86.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The numbers displayed below each letter are the number of tiles of that letter remaining in the bag." wrappingWidth="429.0000021457672" />
+      <Text layoutX="86.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You can mouse over each letter button to see the letter's point value." />
+      <Text layoutX="86.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click submit to calculate the score of your word and add the score to the current score total." wrappingWidth="429.0000021457672" />
+      <Label layoutX="55.0" layoutY="221.0" text="Valid Words:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="88.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Words must be at least 2 letters long and no longer than 8 letters." wrappingWidth="429.0000021457672" />
+      <Text layoutX="88.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Words must contain a vowel." />
+      <Text layoutX="88.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Words cannot be blank." />
+      <Text layoutX="88.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There must be enough remaining letters in the bag to submit the word." />
+      <Text layoutX="88.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The word must no have been already submitted." />
+      <Label layoutX="55.0" layoutY="387.0" text="Game Over:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Text layoutX="86.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Over occurs when there is either only one letter tile remaining in the bag or when there are no more vowel tiles in the bag." wrappingWidth="428.9999899864197" />
+      <Button fx:id="btnHelpClose" layoutX="224.0" layoutY="467.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Close" />
+   </children>
+</AnchorPane>

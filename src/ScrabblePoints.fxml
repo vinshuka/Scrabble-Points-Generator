@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="734.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ScrabbleController">
+   <children>
+      <Button fx:id="btnA" layoutX="25.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="A">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnB" layoutX="126.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="B">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 3" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnC" layoutX="226.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="C">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 3" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnD" layoutX="327.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="D">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 2" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnE" layoutX="429.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="E">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnF" layoutX="530.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="F">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 4" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnG" layoutX="632.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="G">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 2" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnH" layoutX="735.0" layoutY="167.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="H">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 4" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnI" layoutX="24.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="I">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnJ" layoutX="126.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="J">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 8" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnK" layoutX="226.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="K">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 5" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnL" layoutX="327.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="L">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnM" layoutX="429.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="M">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 3" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnN" layoutX="530.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="N">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnO" layoutX="632.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="O">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnP" layoutX="735.0" layoutY="249.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="P">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 3" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnQ" layoutX="24.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="Q">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 10" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnR" layoutX="126.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="R">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnS" layoutX="226.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="S">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnT" layoutX="327.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="T">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnU" layoutX="429.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="U">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 1" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnV" layoutX="530.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="V">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 4" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnW" layoutX="632.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="W">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 4" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnX" layoutX="735.0" layoutY="333.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="X">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 8" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnY" layoutX="327.0" layoutY="421.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="Y">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 4" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnZ" layoutX="431.0" layoutY="421.0" mnemonicParsing="false" onAction="#typeButton" prefHeight="51.0" prefWidth="83.0" text="Z">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Point Value : 10" />
+         </tooltip>
+      </Button>
+      <Label layoutX="273.0" layoutY="103.0" text="TOTAL POINTS">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="pointValue" layoutX="524.0" layoutY="103.0" text="0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textWord" layoutX="235.0" layoutY="538.0" prefHeight="37.0" prefWidth="373.0" promptText="Enter a word" />
+      <Button fx:id="btnSubmit" layoutX="361.0" layoutY="588.0" mnemonicParsing="false" onAction="#btnSubmit" prefHeight="25.0" prefWidth="120.0" text="SUBMIT WORD" />
+      <Line endX="390.0" layoutX="421.0" layoutY="155.0" startX="-390.0" />
+      <Button fx:id="btnReset" layoutX="24.0" layoutY="14.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+      <Label layoutX="216.0" layoutY="27.0" text=" Scrabble Points Generator">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="prevWord" layoutX="6.0" layoutY="633.0" prefHeight="89.0" prefWidth="831.0" />
+      <Label layoutX="16.0" layoutY="613.0" text="Previous Words:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="noA" layoutX="60.0" layoutY="220.0" text="9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noB" layoutX="163.0" layoutY="219.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noC" layoutX="262.0" layoutY="219.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noD" layoutX="365.0" layoutY="220.0" text="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noE" layoutX="460.0" layoutY="220.0" text="12">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noF" layoutX="566.0" layoutY="220.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noG" layoutX="669.0" layoutY="219.0" text="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noH" layoutX="772.0" layoutY="219.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noI" layoutX="60.0" layoutY="304.0" text="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noJ" layoutX="162.0" layoutY="304.0" text="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noK" layoutX="262.0" layoutY="304.0" text="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noL" layoutX="363.0" layoutY="304.0" text="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noM" layoutX="465.0" layoutY="304.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noN" layoutX="566.0" layoutY="304.0" text="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noO" layoutX="668.0" layoutY="304.0" text="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noP" layoutX="771.0" layoutY="304.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noQ" layoutX="60.0" layoutY="388.0" text="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noR" layoutX="162.0" layoutY="388.0" text="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noS" layoutX="262.0" layoutY="388.0" text="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noT" layoutX="363.0" layoutY="388.0" text="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noU" layoutX="465.0" layoutY="388.0" text="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noV" layoutX="566.0" layoutY="388.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noW" layoutX="668.0" layoutY="388.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noX" layoutX="771.0" layoutY="388.0" text="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noY" layoutX="363.0" layoutY="476.0" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="noZ" layoutX="465.0" layoutY="476.0" text="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="error" alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="513.0" prefHeight="17.0" prefWidth="373.0" textFill="RED" />
+   </children>
+</AnchorPane>
